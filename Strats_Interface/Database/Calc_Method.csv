@@ -1,0 +1,15 @@
+Calc_Method_Idx,Calc_Method_Name
+1,Count
+2,Count %
+3,Sum
+4,Sum %
+5,Min
+6,Wt_Avg
+7,Avg
+8,Divide
+9,Countif_Over30
+10,Countif_Over60
+11,Countif_Over90
+12,Countif_Over30_Ratio
+13,Countif_Over60_Ratio
+14,Countif_Over90_Ratio

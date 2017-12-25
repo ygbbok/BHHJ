@@ -1,0 +1,7 @@
+		self.databasetable_strVar = Tkinter.StringVar()
+		self.databasetable_option = ttk.Combobox(staticpoolpage_line_2, textvariable=self.databasetable_strVar, values=Config.production_table_list)
+
+		# self.databasetable_option = Tkinter.OptionMenu(staticpoolpage_line_2, self.databasetable_strVar, *Config.production_table_list)
+		self.databasetable_strVar.set(Config.production_table_list[0])
+		self.databasetable_option.pack(side = 'left')
+# -*- coding: utf-8 -*-
